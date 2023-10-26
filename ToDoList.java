@@ -8,6 +8,8 @@ public class ToDoList {
         boolean premiumPlan = false;
         String[] toDoList;
 
+        System.out.println("aaaaaa");
+
         if (!premiumPlan) {
             System.out.println("\n\t\t\t\t\u001b[43;1m\u001b[38;5;15mIMPORTANT WARNING\u001b[0m\u001b[38;5;11m\nYou are currently using the Free Plan of ToDoList!\nYou can upgrade to Premium Plan in the upgrade menu!\u001b[0m");
             toDoList = new String[10];
